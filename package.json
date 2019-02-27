@@ -6,13 +6,24 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.2",
     "inquirer": "^6.2.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silent-lad/silentlad.git"
+  },
+  "keywords": [
+    "resume",
+    "babyShark"
+  ],
+  "author": "silentlad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silent-lad/silentlad/issues"
+  },
+  "homepage": "https://github.com/silent-lad/silentlad#readme",
   "bin": {
     "silentlad": "./index.js"
   }
