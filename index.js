@@ -37,10 +37,10 @@ function resumeHandler() {
         type: "list",
         name: "exitBack",
         message: "Go back or Exit?",
-        choices: ["Go Back", "Exit"]
+        choices: ["Back", "Exit"]
       })
       .then(choice => {
-        if (choice.choices == "Go Back") {
+        if (choice.choices == "Back") {
           resumeHandler();
         } else {
           return;
