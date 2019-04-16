@@ -41,6 +41,7 @@ function resumeHandler() {
       })
       .then(choice => {
         if (choice.exitBack == "Back") {
+          console.clear();
           resumeHandler();
         } else {
           return;
