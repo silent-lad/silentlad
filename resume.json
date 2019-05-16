@@ -1,14 +1,73 @@
 {
-  "Education": [
-    "Failed Highschool",
-    "Failed College",
-    "Good at singing Baby Shark!"
+  "Experience": [
+    {
+      "company": "Adjective.work",
+      "title": "Software Development Intern",
+      "location": "Shaping and developing the flagship project for the said starup.",
+      "years": "April 2019 - till now"
+    },
+    {
+      "company": "I2E1 Pvt Ltd.",
+      "title": "Web Crawling and Scraping Intern",
+      "location": "Crawled and scraped 2 major ecommerce and people directory sites",
+      "years": "2009 - 2014"
+    },
+    {
+      "company": "Suvidha Home",
+      "title": "Senior Frontend Developer",
+      "location": "Completed the adminstration portal made entirely in Vue.js.",
+      "years": "Nov 2018 - Feb 2019"
+    },
+    {
+      "company": "I2E1 Pvt Ltd.",
+      "title": "Backend Development Intern",
+      "location": "Made a whole architecture for hyperlocal targeting",
+      "years": "2007 - 2009"
+    }
   ],
-  "Past Experience": [
-    "I choreographed this video :- https://www.youtube.com/watch?v=XqZsoesa55w ",
-    "i'm kidding"
+  "Tech stack": [
+    "Vue.Js/ React.js/ Angularjs",
+    "Node.js, GraphQl, Firebase",
+    "MongoDB, Firestore, Bigquery",
+    "Arduino,Mqtt",
+    "Unix, Mac Osx, Linux"
   ],
-  "Tech Stack": ["Baby_Shark.py", "mommyShark.js", "daddy-shark.css"],
-  "Projects": ["None"],
-  "Contact": ["babyshark@dodododo.com"]
+  "Projects": [
+    {
+      "name": "VueSolitaire",
+      "link": "https://solitairevue.firebaseapp.com",
+      "description": "A drag and drop solitaire made entirely in Vue.js."
+    },
+    {
+      "name": "Music Reactive Led",
+      "link": "https://www.youtube.com/watch?v=4FIvaYQ5C3Q",
+      "description": "Music and beat reactive Led made by arduino doing"
+    }
+  ],
+  "Public profiles": [
+    {
+      "name": "Git Hub",
+      "link": "https://github.com/silent-lad"
+    },
+    {
+      "name": "Medium",
+      "link": "https://medium.com/@silentlad"
+    },
+    {
+      "name": "LinkedIN",
+      "link": "https://www.linkedin.com/in/silentlad/"
+    },
+    {
+      "name": "NPM",
+      "link": "https://www.npmjs.com/settings/silentlad/packages"
+    },
+    {
+      "name": "Codepen",
+      "link": "https://codepen.io/silentlad/"
+    },
+    {
+      "name": "Email",
+      "link": "divyanshtripathi1998@gmail.com"
+    }
+  ]
 }

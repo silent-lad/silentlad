@@ -1,12 +1,14 @@
 #!/usr/bin/env node
-"use strict";
 
 var inquirer = require("inquirer");
 var chalk = require("chalk");
 
-var response = chalk.bold.green;
+const title = chalk.bold.red;
+const response = chalk.blue;
 
 var resume = require("./resume.json");
+var dividerConstructor = require("./divider.js");
+var divider = new dividerConstructor(70, "green");
 
 var resumePrompts = {
   type: "list",
@@ -16,9 +18,12 @@ var resumePrompts = {
 };
 
 function main() {
+  console.clear();
   console.log("Hello,My name is SilentLad and welcome to my resume");
   resumeHandler();
 }
+
+// var divider = new dividerObject();
 
 function resumeHandler() {
   inquirer.prompt(resumePrompts).then(answer => {
@@ -26,11 +31,26 @@ function resumeHandler() {
       return;
     }
     var option = answer.resumeOptions;
-    console.log(response("--------------------------------------"));
-    resume[`${option}`].forEach(info => {
-      console.log(response("|   => " + info));
+
+    divider.printTop();
+
+    resume[`${option}`].forEach((info, ind) => {
+      if (typeof info === "string") {
+        console.log(divider.containString(`  ${info}`, response));
+      } else {
+        Object.values(info).forEach((value, ind) => {
+          if (ind > 1) {
+            console.log(divider.containString(`    ${value}`, response));
+          } else if (ind == 1) {
+            console.log(divider.containString(`    ${value}`, chalk.cyan.bold));
+          } else {
+            console.log(divider.containString(`  ${value.padEnd(38)}`, title));
+          }
+        });
+        ind !== resume[`${option}`].length - 1 && divider.printLine();
+      }
     });
-    console.log(response("--------------------------------------"));
+    divider.printBottom();
     // console.log(resume[`${option}`]);
     inquirer
       .prompt({
@@ -41,7 +61,7 @@ function resumeHandler() {
       })
       .then(choice => {
         if (choice.exitBack == "Back") {
-          console.clear();
+          process.stdout.write("\033c");
           resumeHandler();
         } else {
           return;
