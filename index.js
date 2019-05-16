@@ -19,13 +19,13 @@ var resumePrompts = {
 
 function main() {
   console.clear();
-  console.log("Hello,My name is SilentLad and welcome to my resume");
   resumeHandler();
 }
 
 // var divider = new dividerObject();
 
 function resumeHandler() {
+  console.log("Hello,My name is SilentLad and welcome to my resume");
   inquirer.prompt(resumePrompts).then(answer => {
     if (answer.resumeOptions == "Exit") {
       return;

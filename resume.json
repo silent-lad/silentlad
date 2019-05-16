@@ -26,11 +26,32 @@
     }
   ],
   "Tech stack": [
-    "Vue.Js/ React.js/ Angularjs",
-    "Node.js, GraphQl, Firebase",
-    "MongoDB, Firestore, Bigquery",
-    "Arduino,Mqtt",
-    "Unix, Mac Osx, Linux"
+    {
+      "Skill": "Frontend",
+      "Frameworks": "Vue.Js/ React.js/ Angularjs"
+    },
+    {
+      "Skill": "Backend",
+      "Frameworks": "Node.js, GraphQl, Firebase, Flask"
+    },
+    {
+      "Skill": "Databases",
+      "Frameworks": "MongoDB, Firestore, Bigquery, Sql"
+    },
+    {
+      "Skill": "Hardware",
+      "Frameworks": "Arduino,Mqtt,Rasberry Pie,"
+    }
+  ],
+  "Achievments": [
+    {
+      "name": "Amazing Vue Featured",
+      "description": "My Project got featured in amazing-vue."
+    },
+    {
+      "name": "NPM Resume",
+      "Desciption": "My blog on the same got 20k views."
+    }
   ],
   "Projects": [
     {
