@@ -43,6 +43,10 @@
       "Frameworks": "Vue.Js/ React.js/ Angularjs"
     },
     {
+      "Skill": "Voice User Interfaces",
+      "Frameworks": "Google Assistant, Alexa, Dialgflow bots"
+    },
+    {
       "Skill": "Backend",
       "Frameworks": "Node.js, GraphQl, Firebase, Flask"
     },
@@ -53,6 +57,10 @@
     {
       "Skill": "Hardware",
       "Frameworks": "Arduino,Mqtt,Rasberry Pie,"
+    },
+    {
+      "Skill": "IOT Technologies",
+      "Technologies": "Mqtt,BLE"
     }
   ],
   "Achievments": [
