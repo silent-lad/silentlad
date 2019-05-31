@@ -51,7 +51,6 @@ function resumeHandler() {
       }
     });
     divider.printBottom();
-    // console.log(resume[`${option}`]);
     inquirer
       .prompt({
         type: "list",
