@@ -51,6 +51,7 @@ function resumeHandler() {
       }
     });
     divider.printBottom();
+
     inquirer
       .prompt({
         type: "list",
