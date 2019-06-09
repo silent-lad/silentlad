@@ -2,7 +2,6 @@
 
 var inquirer = require("inquirer");
 var chalk = require("chalk");
-const terminalImage = require("terminal-image");
 
 const title = chalk.bold.red;
 const response = chalk.blue;
@@ -18,18 +17,8 @@ var resumePrompts = {
   choices: [...Object.keys(resume), "Exit"]
 };
 
-(() => {
-  console.clear();
-  resumeHandler();
-})();
-
-// var divider = new dividerObject();
-
-async function resumeHandler() {
-  var bannerImage = await terminalImage.file("./helpers/lg.png");
-  // process.stdout.write("\033c");
-  console.log(bannerImage);
-  // console.log("Hello,My name is SilentLad and welcome to my resume");
+function resumeHandler() {
+  console.log("Hello,My name is SilentLad and welcome to my resume");
   inquirer.prompt(resumePrompts).then(answer => {
     if (answer.resumeOptions == "Exit") {
       return;
@@ -74,4 +63,7 @@ async function resumeHandler() {
   });
 }
 
-// main();
+(() => {
+  console.clear();
+  resumeHandler();
+})();
