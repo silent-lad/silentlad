@@ -2,12 +2,13 @@
 
 var inquirer = require("inquirer");
 var chalk = require("chalk");
+const terminalImage = require("terminal-image");
 
 const title = chalk.bold.red;
 const response = chalk.blue;
 
-var resume = require("./resume.json");
-var dividerConstructor = require("./divider.js");
+var resume = require("./helpers/resume.json");
+var dividerConstructor = require("./helpers/divider.js");
 var divider = new dividerConstructor(70, "green");
 
 var resumePrompts = {
@@ -17,15 +18,18 @@ var resumePrompts = {
   choices: [...Object.keys(resume), "Exit"]
 };
 
-function main() {
+(() => {
   console.clear();
   resumeHandler();
-}
+})();
 
 // var divider = new dividerObject();
 
-function resumeHandler() {
-  console.log("Hello,My name is SilentLad and welcome to my resume");
+async function resumeHandler() {
+  var bannerImage = await terminalImage.file("./helpers/lg.png");
+  // process.stdout.write("\033c");
+  console.log(bannerImage);
+  // console.log("Hello,My name is SilentLad and welcome to my resume");
   inquirer.prompt(resumePrompts).then(answer => {
     if (answer.resumeOptions == "Exit") {
       return;
@@ -70,4 +74,4 @@ function resumeHandler() {
   });
 }
 
-main();
+// main();
