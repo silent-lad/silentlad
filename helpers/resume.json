@@ -5,7 +5,7 @@
       "title": "UI/UX Engineering Intern",
       "description1": "Developing and maintaining a proprietary Vue.js based",
       "description2": "web application.",
-      "duration": "June 2019 - till now"
+      "duration": "June 2019 - July 2019"
     },
     {
       "company": "Coding Blocks",
@@ -17,13 +17,13 @@
       "company": "Adjective.work",
       "title": "Software Development Intern",
       "description": "Shaping and developing the flagship project for the said starup.",
-      "duration": "April 2019 - till now"
+      "duration": "April 2019 - May 2019"
     },
     {
       "company": "I2E1 Pvt Ltd.",
       "title": "Web Crawling and Scraping Intern",
       "description": "Crawled and scraped 2 major ecommerce and people directory sites",
-      "duration": "2009 - 2014"
+      "duration": "March 2019"
     },
     {
       "company": "Suvidha Home",
@@ -35,7 +35,7 @@
       "company": "I2E1 Pvt Ltd.",
       "title": "Backend Development Intern",
       "description": "Made a whole architecture for hyperlocal targeting",
-      "duration": "2007 - 2009"
+      "duration": "June 2018 - July 2018"
     }
   ],
   "Tech stack": [
@@ -75,6 +75,11 @@
     }
   ],
   "Projects": [
+    {
+      "name": "Vue2 Baremetrics Calendar",
+      "link": "https://github.com/silent-lad/Vue2BaremetricsCalendar",
+      "description": "A minimalistic Date/ Daterange picker for vue."
+    },
     {
       "name": "VueSolitaire",
       "link": "https://solitairevue.firebaseapp.com",
