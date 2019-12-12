@@ -1,6 +1,13 @@
 {
   "Experience": [
     {
+      "company": "GLRA India (NGO)",
+      "title": "Website Designer and Developer",
+      "description1": "Developing and maintaining website for the German based NGO.",
+      "description2": "Website",
+      "duration": "December 2019"
+    },
+    {
       "company": "Richpanel Technologies",
       "title": "UI/UX Engineering Intern",
       "description1": "Developing and maintaining a proprietary Vue.js based",
@@ -57,7 +64,7 @@
     },
     {
       "Skill": "Hardware",
-      "Frameworks": "Arduino,Mqtt,Rasberry Pie,"
+      "Frameworks": "Arduino,Mqtt,Rasberry Pie,NodeMCU,WS2812B"
     },
     {
       "Skill": "IOT Technologies",
