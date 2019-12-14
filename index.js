@@ -18,7 +18,7 @@ var resumePrompts = {
 };
 
 function resumeHandler() {
-  console.log("Hello,My name is SilentLad and welcome to my resume");
+  console.log("Hello,My name is SilentLad and welcome to my resume.");
   inquirer.prompt(resumePrompts).then(answer => {
     if (answer.resumeOptions == "Exit") {
       return;

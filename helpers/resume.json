@@ -1,4 +1,11 @@
 {
+  "Current Positions": [
+    {
+      "company": "Coding Blocks",
+      "title": "Online Course Creator",
+      "description": "Creating a Vue.js Online course for Coding Blocks classes"
+    }
+  ],
   "Experience": [
     {
       "company": "GLRA India (NGO)",
