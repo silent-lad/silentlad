@@ -112,6 +112,10 @@
   ],
   "Contact Me": [
     {
+      "name": "Website",
+      "link": "https://silentlad.com"
+    },
+    {
       "name": "Git Hub",
       "link": "https://github.com/silent-lad"
     },
