@@ -108,6 +108,11 @@
       "name": "Music Reactive Led",
       "link": "https://www.youtube.com/watch?v=-Q231njKs0E",
       "description": "Music and beat reactive Led made by arduino doing"
+    },
+    {
+      "name": "Social Sachin",
+      "link": "https://www.github.com/silent-lad/SocialSachin",
+      "description": "A try on data visualisation with vue.js"
     }
   ],
   "Contact Me": [
