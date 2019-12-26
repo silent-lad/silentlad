@@ -96,7 +96,7 @@
   "Projects": [
     {
       "name": "Vue2 Baremetrics Calendar",
-      "link": "https://github.com/silent-lad/Vue2BaremetricsCalendar",
+      "link": "https://www.npmjs.com/package/vue2-baremetrics-calendar",
       "description": "A minimalistic Date/ Daterange picker for vue."
     },
     {
