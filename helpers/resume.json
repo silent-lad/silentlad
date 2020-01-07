@@ -1,6 +1,11 @@
 {
   "Current Positions": [
     {
+      "company": "I2E1",
+      "title": "Winter Intern",
+      "description": "Working on the ASP.NET architecture on the implementing a interaction Service"
+    },
+    {
       "company": "Coding Blocks",
       "title": "Vue.js Course Creator",
       "description": "Creating a Vue.js Online course for Coding Blocks classes "
@@ -60,7 +65,7 @@
   "Tech stack": [
     {
       "Skill": "Frontend",
-      "Frameworks": "Vue.Js/ React.js/ Angularjs"
+      "Frameworks": "Vue.Js/ React.js/ Angularjs/ Angular"
     },
     {
       "Skill": "Voice User Interfaces",
@@ -68,7 +73,7 @@
     },
     {
       "Skill": "Backend",
-      "Frameworks": "Node.js, GraphQl, Firebase, Flask"
+      "Frameworks": "Node.js,ASP.NET, .NET Core, GraphQl, Firebase, Flask"
     },
     {
       "Skill": "Databases",
