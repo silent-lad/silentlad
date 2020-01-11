@@ -68,12 +68,16 @@
       "Frameworks": "Vue.Js/ React.js/ Angularjs/ Angular"
     },
     {
-      "Skill": "Voice User Interfaces",
-      "Frameworks": "Google Assistant, Alexa, Dialgflow bots"
-    },
-    {
       "Skill": "Backend",
       "Frameworks": "Node.js,ASP.NET, .NET Core, GraphQl, Firebase, Flask"
+    },
+    {
+      "Skill": "Graphic Design",
+      "Frameworks": "Illustrator, Invision"
+    },
+    {
+      "Skill": "Voice User Interfaces",
+      "Frameworks": "Google Assistant, Alexa, Dialgflow bots"
     },
     {
       "Skill": "Databases",
