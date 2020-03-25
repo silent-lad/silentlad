@@ -1,19 +1,19 @@
 {
   "Current Positions": [
     {
-      "company": "I2E1",
-      "title": "Winter Intern",
-      "description": "Working on the ASP.NET architecture on the implementing a interaction Service"
-    },
-    {
-      "company": "Coding Blocks",
-      "title": "Vue.js Course Creator",
-      "description": "Creating a Vue.js Online course for Coding Blocks classes "
-    },
-    {
       "company": "Medium",
       "title": "Technical Writer",
       "description": "I go by the name silentlad"
+    },
+    {
+      "company": "Techspace",
+      "title": "President",
+      "description": "President of the Technical society of our college"
+    },
+    {
+      "company": "CodeMentor",
+      "title": "Mentor",
+      "description": "Hold mentoring 1:1 mentoring sessions and pick freelance gigs"
     }
   ],
   "Freelance Clients": [
@@ -91,6 +91,10 @@
       "Frameworks": "Vue.Js/ React.js/ Angularjs/ Angular"
     },
     {
+      "Skill": "GUI design",
+      "Frameworks": "Electron, Java AWT, SWING"
+    },
+    {
       "Skill": "Backend",
       "Frameworks": "Node.js,ASP.NET, .NET Core, GraphQl, Firebase, Flask"
     },
@@ -157,7 +161,7 @@
       "link": "https://silentlad.com"
     },
     {
-      "name": "Git Hub",
+      "name": "Github",
       "link": "https://github.com/silent-lad"
     },
     {
