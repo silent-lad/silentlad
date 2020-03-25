@@ -16,13 +16,36 @@
       "description": "I go by the name silentlad"
     }
   ],
-  "Experience": [
+  "Freelance Clients": [
+    {
+      "company": "WiseFinserv India",
+      "title": "UI/UX Developer",
+      "description1": "Designed the UI/UX for the new WiseFinserv website",
+      "description2": "Adobe XD designs,mockups",
+      "duration": "April 2020"
+    },
     {
       "company": "GLRA India",
       "title": "Website Designer and Developer",
       "description1": "Developing and maintaining website for the German based NGO.",
       "description2": "Website",
       "duration": "December 2019"
+    }
+  ],
+  "Experience": [
+    {
+      "company": "CodeMentor",
+      "title": "Software Engineering Consultant/Freelancer",
+      "description1": "Hold mentoring 1:1 mentoring sessions and pick freelance gigs",
+      "description2": "Mentor",
+      "duration": "March 2020 - till now"
+    },
+    {
+      "company": "I2E1 Pvt Ltd.",
+      "title": "Backend Developer",
+      "description1": "Redesigned 2 of their microservices to reduce runtime to upto 85%.",
+      "description2": ".Net Developer",
+      "duration": "January 2020"
     },
     {
       "company": "Richpanel Technologies",
@@ -35,7 +58,7 @@
       "company": "Coding Blocks",
       "title": "Teaching Assistant",
       "description": "Pitampura, Delhi",
-      "duration": "June 2019 - till now"
+      "duration": "June 2019 - July 2019"
     },
     {
       "company": "Adjective.work",
@@ -100,6 +123,10 @@
     {
       "name": "NPM Resume",
       "Desciption": "My blog on the same got 20k views."
+    },
+    {
+      "name": "President-Techspace",
+      "Desciption": "President of College Umbrella society \n with over 11 clubs under it and \n hosting the college annual techfest."
     }
   ],
   "Projects": [
