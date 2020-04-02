@@ -1,6 +1,11 @@
 {
   "Current Positions": [
     {
+      "company": "CodeMentor",
+      "title": "Mentor",
+      "description": "Hold mentoring 1:1 mentoring sessions and pick freelance gigs"
+    },
+    {
       "company": "Medium",
       "title": "Technical Writer",
       "description": "I go by the name silentlad"
@@ -9,11 +14,6 @@
       "company": "Techspace",
       "title": "President",
       "description": "President of the Technical society of our college"
-    },
-    {
-      "company": "CodeMentor",
-      "title": "Mentor",
-      "description": "Hold mentoring 1:1 mentoring sessions and pick freelance gigs"
     }
   ],
   "Freelance Clients": [
@@ -96,7 +96,7 @@
     },
     {
       "Skill": "Backend",
-      "Frameworks": "Node.js,ASP.NET, .NET Core, GraphQl, Firebase, Flask"
+      "Frameworks": "Node.js,ASP.NET, .NET Core, GraphQl, Firebase, Flask, Django"
     },
     {
       "Skill": "Graphic Design",
