@@ -108,7 +108,7 @@
     },
     {
       "Skill": "Databases",
-      "Frameworks": "MongoDB, Firestore, Bigquery, Sql"
+      "Frameworks": "MongoDB, Firestore, Bigquery, Sqlite, MySql"
     },
     {
       "Skill": "Hardware",
