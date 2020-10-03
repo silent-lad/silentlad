@@ -10,11 +10,7 @@
       "title": "Technical Writer",
       "description": "I go by the name silentlad"
     },
-    {
-      "company": "Techspace",
-      "title": "President",
-      "description": "President of the Technical society of our college"
-    }
+    
   ],
   "Freelance Clients": [
     {
@@ -33,6 +29,13 @@
     }
   ],
   "Experience": [
+    {
+      "company": "Gojek Tech",
+      "title": "Product Engineering Intern",
+      "description1": "Integrate distributed tracing in one of the core microservice flows of the transport stream of Gojek",
+      "description2": "Intern",
+      "duration": "March 2020 - till now"
+    },
     {
       "company": "CodeMentor",
       "title": "Software Engineering Consultant/Freelancer",
@@ -167,6 +170,10 @@
     {
       "name": "Medium",
       "link": "https://medium.com/@silentlad"
+    },
+    {
+      "name": "Codementor",
+      "link": "https://www.codementor.io/@silentlad"
     },
     {
       "name": "LinkedIN",
