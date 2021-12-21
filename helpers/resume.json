@@ -1,16 +1,17 @@
 {
   "Current Positions": [
     {
-      "company": "CodeMentor",
-      "title": "Mentor",
-      "description": "Hold mentoring 1:1 mentoring sessions and pick freelance gigs"
+      "company": "Gojek Tech",
+      "title": "Product Engineering",
+      "description1": "Working primarily on devops for the transport team",
+      "description2": "in Gojek's Superapp.",
+      "duration": "July 2021 - till now"
     },
     {
       "company": "Medium",
       "title": "Technical Writer",
       "description": "I go by the name silentlad"
-    },
-    
+    }
   ],
   "Freelance Clients": [
     {
@@ -29,6 +30,11 @@
     }
   ],
   "Experience": [
+    {
+      "company": "CodeMentor",
+      "title": "Mentor",
+      "description": "Hold mentoring 1:1 mentoring sessions and pick freelance gigs"
+    },
     {
       "company": "Gojek Tech",
       "title": "Product Engineering Intern",
